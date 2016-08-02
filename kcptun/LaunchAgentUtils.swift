@@ -101,7 +101,7 @@ func InstallSSLocal() {
     let fileMgr = NSFileManager.defaultManager()
     let homeDir = NSHomeDirectory()
     let appSupportDir = homeDir+APP_SUPPORT_DIR
-    if !fileMgr.fileExistsAtPath(appSupportDir + "ss-local-\(SS_LOCAL_VERSION)/ss-local")
+    if !fileMgr.fileExistsAtPath(appSupportDir + "kcptun-\(SS_LOCAL_VERSION)/kcptun")
     /*|| !fileMgr.fileExistsAtPath(appSupportDir + "libcrypto.1.0.0.dylib")*/ {
         let bundle = NSBundle.mainBundle()
         let installerPath = bundle.pathForResource("install_ss_local.sh", ofType: nil)
