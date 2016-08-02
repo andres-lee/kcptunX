@@ -1,0 +1,6 @@
+framework module Pods_kcptun {
+  umbrella header "Pods-kcptun-umbrella.h"
+
+  export *
+  module * { export * }
+}

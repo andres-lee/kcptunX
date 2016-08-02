@@ -1,0 +1,47 @@
+/*
+ * SHARED STRINGS
+ */
+
+/*
+ * ./PACUtils.swift
+ */
+
+"PAC has been updated by latest GFW List." = "PAC has been updated by latest GFW List.";
+
+"Failed to download latest GFW List." = "Failed to download latest GFW List.";
+
+/*
+ * ./PreferencesWindowController.swift
+ */
+
+"New Server" = "New Server";
+
+/*
+ * ./AppDelegate.swift
+ */
+
+"Add Shadowsocks Server Profile" = "Add Shadowsocks Server Profile";
+
+"By scan QR Code" = "By scan QR Code";
+
+"By Handle SS URL" = "By Handle SS URL";
+
+" Encription Method: \(profile.method)" = " Encription Method: \(profile.method)";
+
+"Current server profile is not valid." = "Current server profile is not valid.";
+
+"No current server profile." = "No current server profile.";
+
+"Shadowsocks: On" = "Kcptun: On";
+
+"Turn Shadowsocks Off" = "Turn Kcptun Off";
+
+"Shadowsocks: Off" = "Kcptun: Off";
+
+"Turn Shadowsocks On" = "Turn Kcptun On";
+
+"Proxy - Auto By PAC" = "Proxy - Auto By PAC";
+
+"Proxy - Global" = "Proxy - Global";
+
+"Proxy - Manual" = "Proxy - Manual";
