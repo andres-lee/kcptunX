@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
         <capability name="box content view" minToolsVersion="7.0"/>
@@ -286,13 +286,6 @@
                                         <outlet property="formatter" destination="QZc-kt-D7Z" id="TUU-jS-lCR"/>
                                     </connections>
                                 </textField>
-                                <button ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="poT-Fp-Hb1">
-                                    <rect key="frame" x="197" y="98" width="104" height="18"/>
-                                    <buttonCell key="cell" type="check" title="Acknodelay" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="B3h-bq-XdA">
-                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                                        <font key="font" metaFont="system"/>
-                                    </buttonCell>
-                                </button>
                                 <comboBox verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hWb-D0-mZV" userLabel="Mode Text Field">
                                     <rect key="frame" x="231" y="186" width="71" height="26"/>
                                     <comboBoxCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" completes="NO" numberOfVisibleItems="11" id="Age-Pj-UWt">
@@ -301,6 +294,13 @@
                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </comboBoxCell>
                                 </comboBox>
+                                <button ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="poT-Fp-Hb1">
+                                    <rect key="frame" x="197" y="98" width="104" height="18"/>
+                                    <buttonCell key="cell" type="check" title="Acknodelay" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="B3h-bq-XdA">
+                                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                        <font key="font" metaFont="system"/>
+                                    </buttonCell>
+                                </button>
                             </subviews>
                             <constraints>
                                 <constraint firstItem="vSh-wc-1Pk" firstAttribute="centerY" secondItem="Iwm-jU-lQY" secondAttribute="centerY" id="0DO-Vb-9Jv"/>
