@@ -8,4 +8,4 @@
 
 
 
-launchctl unload "$HOME/Library/LaunchAgents/com.qiuyuzhou.kcptun.local.plist"
+launchctl unload "$HOME/Library/LaunchAgents/com.andres.kcptun.local.plist"

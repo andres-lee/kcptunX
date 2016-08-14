@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		41284CC41D5098A000914B4D /* kcptun in Resources */ = {isa = PBXBuildFile; fileRef = 41284CC31D5098A000914B4D /* kcptun */; };
 		413DD60A1D50B5A6007405A8 /* kcptunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413DD6091D50B5A6007405A8 /* kcptunTests.swift */; };
+		41C348431D60A926003924F8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C348421D60A926003924F8 /* SystemConfiguration.framework */; };
 		9B07EFAC1D048E880052D9DF /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07EFA81D048E880052D9DF /* menu_icon@2x.png */; };
 		9B07EFAD1D048E880052D9DF /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07EFA91D048E880052D9DF /* menu_icon.png */; };
 		9B07EFAE1D048E880052D9DF /* menu_icon_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B07EFAA1D048E880052D9DF /* menu_icon_disabled.png */; };
@@ -32,7 +33,6 @@
 		9B3FFF381D08CF110019A709 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B3FFF351D08CF110019A709 /* jquery.min.js */; };
 		9B3FFF391D08CF110019A709 /* qrcode.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9B3FFF361D08CF110019A709 /* qrcode.min.js */; };
 		9B3FFF3A1D08CF110019A709 /* qrcode.htm in Resources */ = {isa = PBXBuildFile; fileRef = 9B3FFF371D08CF110019A709 /* qrcode.htm */; };
-		9B3FFF3E1D08D9910019A709 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3FFF3D1D08D9910019A709 /* SystemConfiguration.framework */; };
 		9B3FFF471D09CD3B0019A709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3FFF461D09CD3B0019A709 /* main.m */; };
 		9B3FFF4C1D09D8F70019A709 /* install_helper.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9B3FFF4B1D09D8F70019A709 /* install_helper.sh */; };
 		9B3FFF4F1D09D9D50019A709 /* ProxyConfHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B3FFF4E1D09D9D50019A709 /* ProxyConfHelper.m */; };
@@ -132,6 +132,7 @@
 		41284CC31D5098A000914B4D /* kcptun */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = kcptun; sourceTree = "<group>"; };
 		4133409E1D50E9760045A71C /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		413DD6091D50B5A6007405A8 /* kcptunTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kcptunTests.swift; sourceTree = "<group>"; };
+		41C348421D60A926003924F8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SystemConfiguration.framework; sourceTree = "<group>"; };
 		429B44F2AB320EF012C4B232 /* Pods-kcptunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcptunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kcptunTests/Pods-kcptunTests.debug.xcconfig"; sourceTree = "<group>"; };
 		42FD0909537C29E355B6A6C5 /* Pods-kcptun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcptun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kcptun/Pods-kcptun.debug.xcconfig"; sourceTree = "<group>"; };
 		4A709745B1633B5DCB4A1722 /* Pods-kcptun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kcptun.release.xcconfig"; path = "Pods/Target Support Files/Pods-kcptun/Pods-kcptun.release.xcconfig"; sourceTree = "<group>"; };
@@ -207,7 +208,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B3FFF3E1D08D9910019A709 /* SystemConfiguration.framework in Frameworks */,
+				41C348431D60A926003924F8 /* SystemConfiguration.framework in Frameworks */,
 				A7DC7A90F041D88656279985 /* Pods_kcptun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +332,7 @@
 				9B3FFF501D09DAEA0019A709 /* proxy_conf_helper_version.h */,
 				9BA04B211D23D5A5005AAD7F /* ProxyConfTool.h */,
 				9BA04B221D23D5A5005AAD7F /* ProxyConfTool.m */,
+				41C348421D60A926003924F8 /* SystemConfiguration.framework */,
 			);
 			path = kcptun;
 			sourceTree = "<group>";
@@ -458,6 +460,7 @@
 				TargetAttributes = {
 					9B0BFFE41D0460A70040E62B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = B96W69WFT9;
 					};
 					9B0BFFF31D0460A70040E62B = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -894,7 +897,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kcptun",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libcork/include/",
 					"$(SRCROOT)/libipset/include/",
@@ -906,10 +915,11 @@
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/kcptun",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andres.kcptun;
 				PRODUCT_NAME = kcptun;
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "kcptun/kcptun-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -921,7 +931,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "3rd Party Mac Developer Application";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kcptun",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/libcork/include/",
 					"$(SRCROOT)/libipset/include/",
@@ -933,10 +949,11 @@
 					"$(SDKROOT)/usr/lib/system",
 					"$(PROJECT_DIR)/kcptun",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.andres.kcptun;
 				PRODUCT_NAME = kcptun;
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "kcptun/kcptun-Bridging-Header.h";
 			};
 			name = Release;
