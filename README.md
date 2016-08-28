@@ -1,4 +1,5 @@
-# kcptunX
+# kcptunX [![Build Status](https://travis-ci.org/andres-lee/kcptunX.svg?branch=master)](https://travis-ci.org/andres-lee/kcptunX)
+
 本项目由[ShadowsocksX-NG](https://github.com/qiuyuzhou/ShadowsocksX-NG)修改而来，使用[kcptun](https://github.com/xtaci/kcptun)替换了`ss-local`。
 
 ### *免责申明* :warning:
