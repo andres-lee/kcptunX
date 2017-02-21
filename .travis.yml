@@ -1,5 +1,0 @@
-language: objective-c
-osx_image: xcode7.3
-xcode_workspace: kcptun.xcworkspace
-xcode_scheme: kcptun 
-script: set -o pipefail && xcodebuild test -workspace kcptun.xcworkspace -scheme kcptun|xcpretty
